@@ -23,7 +23,7 @@ st.set_page_config(
 # Load Model
 @st.cache_resource
 def load_my_model():
-    return load_model("/content/binary_image_classifier.h5")
+    return load_model("binary_image_classifier.h5")
 
 model = load_my_model()
 
